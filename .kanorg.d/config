@@ -1,0 +1,5 @@
+backlog = [5]
+todo = [1, 4, 3, 2]
+doing = [6]
+done = []
+last_task = 6
