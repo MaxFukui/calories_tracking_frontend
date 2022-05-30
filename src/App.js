@@ -4,6 +4,8 @@ import "./App.css";
 import MealDiaryPage from "./pages/MealDiary";
 import React from "react";
 import axios from "axios";
+import Lottie from 'lottie-react'
+
 class App extends React.Component {
   constructor(props) {
     super(props);

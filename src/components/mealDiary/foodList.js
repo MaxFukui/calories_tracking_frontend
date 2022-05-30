@@ -3,9 +3,13 @@ function FoodList(props){
         <div>
             {props.FoodList.map(
                 (food) =>{
-                    return <div>
-                        {food.comida}
-                    </div>
+                    return (
+                        <div key={food.id}>
+                            {food.comida}
+                            {food.calorias}
+                            {food.porcao}
+                        </div>
+                    )
                 }
             )}
         </div>
